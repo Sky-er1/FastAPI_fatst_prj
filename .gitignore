@@ -1,0 +1,24 @@
+# Игнорирование стандартных файлов и папок Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Игнорирование файлов виртуального окружения
+.venv/
+env/
+venv/
+
+# Игнорирование конфигурационных файлов IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорирование файлов журналов и временных файлов
+*.log
+*.tmp
+*.bak
+*.swp
